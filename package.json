@@ -1,0 +1,27 @@
+{
+  "name": "hornet-js-gc-monitor",
+  "description": "Adds garbage collector statistics object into the javascript process object",
+  "version": "1.0.0",
+  "license": "CECILL-2.1",
+  "main": "./lib/hornet-js-gc-monitor.js",
+  "author": "MAEDI",
+  "os": [
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "ia32"
+  ],
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "bindings": "1.2.1",
+    "nan": "2.0.9"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "gypfile": true
+}
